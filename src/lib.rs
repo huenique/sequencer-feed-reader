@@ -1,8 +1,4 @@
-pub mod decoder;
-pub mod types;
-pub mod errors;
-pub mod feed_clients;
-pub mod feed_client;
+pub mod networks;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
